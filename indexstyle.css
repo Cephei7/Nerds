@@ -68,11 +68,68 @@ body {
   margin-bottom: 80px;
 }
 
+.index-content {
+  float: left;
+  width: 300px;
+  margin-right: 100px;
+
+  height: 350px
+}
+
 .conteiner-index {
-  min-height: 300px;
+  margin-bottom: 122px;
+}
+
+.conteiner-index-left {
+  float: left;
+  width: 660px;
+
+  min-height: 380px
+}
+
+.conteiner-index-right {
+  float: right;
+  width: 360px;
+
+  min-height: 360px;
+}
+
+.conteiner-index-reklama {
+
+min-height: 185px;
+}
+
+.position {
+  min-height: 415px;
+  padding-top: 50px;
+
+}
+
+.contact {
+  width: 320px;
+  height: 310px;
+  margin-top: 50px;
+}
+
+.main-footer {
+  margin-top: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 
 
+  .footer-social {
+    float: left;
+    width: 260px;
+    height: 81px;
+  }
+
+  .footer-sale {
+    float: right;
+    width: 560px;
+    height: 70px;
+  }
 
 
 
@@ -229,6 +286,55 @@ body {
     content: ".conteiner-index";
   }
 
+  .index-content {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 3px yellow;
+  }
+
+  .index-content::before {
+    content: ".index-content";
+  }
+
+  .conteiner-index-left {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 3px yellow;
+  }
+
+  .conteiner-index-left::before {
+    content: ".conteiner-index-left";
+  }
+
+  .conteiner-index-right {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 3px yellow;
+  }
+
+  .conteiner-index-right::before {
+    content: ".conteiner-index-right";
+  }
+
+  .conteiner-index-reklama {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 3px red;
+  }
+
+  .position {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 3px red;
+  }
+
+  .position::before {
+    content: ".position";
+  }
+
+  .contact {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 3px yellow;
+  }
+
+  .contact::before {
+    content: ".contact";
+  }
 
   .main-footer {
     background: rgba(0, 0, 0, 0.1);
@@ -245,7 +351,7 @@ body {
     box-shadow: 0 0 0 3px yellow;
   }
 
-  .footer-copyright {
+  .footer-sale {
     background:  rgba(60, 100, 50, 0.2);
     box-shadow: 0 0 0 3px yellow;
   }
