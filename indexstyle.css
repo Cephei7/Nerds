@@ -68,6 +68,12 @@ body {
   margin-bottom: 80px;
 }
 
+.conteiner-index {
+  min-height: 300px;
+}
+
+
+
 
 
 
@@ -213,33 +219,16 @@ body {
 
   .featurest-foto::before {
     content: ".featurest-foto";
-
-  .index-content {
+}
+  .conteiner-index {
     background: rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 3px red;
   }
 
-  .index-content::before {
-    content: ".index-content";
+  .conteiner-index::before {
+    content: ".conteiner-index";
   }
 
-  .index-content-left {
-    background:  rgba(60, 100, 50, 0.2);
-    box-shadow: 0 0 0 3px yellow;
-  }
-
-  .index-content-left::before {
-    content: ".index-content-left";
-  }
-
-  .index-content-right {
-    background:  rgba(60, 100, 50, 0.2);
-    box-shadow: 0 0 0 3px yellow;
-  }
-
-  .index-content-right::before {
-    content: ".index-content-right";
-  }
 
   .main-footer {
     background: rgba(0, 0, 0, 0.1);
